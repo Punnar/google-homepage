@@ -1,14 +1,135 @@
-div {
-  text-align: center;
-  padding-top: 11%;
+
+a {
+  color: black;
+}
+div img {
+  margin: 25px;
 }
 
-div img {
-  margin: 10px;
+#maincontent {
+  text-align: center;
+  padding-top: 8%;
+}
+
+#singin {
+  background-color: rgb(66, 133, 244);
+  border-radius: 3px;
+  color: white;
+  font-family: arial,sans-serif;
+  font-weight: 700;
+  line-height: 22px;
+
+
+}
+
+#grid {
+  
+  background-image: url("https://ssl.gstatic.com/gb/images/i1_1967ca6a.png");
+  background-position: -132px -38px;
+  box-sizing: border-box;
+  cursor: pointer;
+  height: 30px;
+  opacity: 0.55;
+  margin-right: 12px;
+ 
+}
+
+.header {
+  padding: 15px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+  margin: 0px;
+}
+
+header div {
+  float: right;
+  padding: 5px 20px;
+  font-size: 14px;
 }
 
 .search {
-  
+  height: 45px;
   width: 570px;
+  background-color: transparent;
+  border: 1px solid lightgrey;
+  border-radius: 2px;
+  box-shadow: 1px 1px 3px lightgrey;
+  font-size: 15px;
+  
 
+}
+
+
+.search:focus {
+  box-shadow: 3px 3px 6px lightgrey;
+}
+
+.button {
+  margin: 25px 11px;
+  padding: 5px 20px;
+  color: rgb(131, 131, 131);
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 29px;
+  border: none;
+  background-color: #efefef;
+
+ 
+  
+}
+
+.text {
+  font-size: 13px;
+  text-decoration: none;
+}
+
+.logo-subtext {
+  color: rgb(66, 133, 244);
+  font-family: roboto-regular,arial,sans-serif;
+
+  position: relative;
+  font-size: 18px;
+  top: -18px;
+  left: -30px;
+  font-weight: 400;
+  line-height: 18px;
+
+
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  /*! margin: 0px; */
+  background-color: #f3f3f3;
+  height: 40px;
+  border-top: 1px solid lightgrey;
+  
+  
+}
+
+footer div {
+  color: rgb(102, 102, 102);
+  display: inline-block;
+  font-family: arial,sans-serif;
+  font-size: 13px;
+  line-height: 40px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-top: 0px;
+  padding: 0 15px;
+ 
+}
+
+.footerright {
+  float: right;
+}
+
+.footerleft {
+  float: left;
 }
